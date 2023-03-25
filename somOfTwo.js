@@ -24,3 +24,17 @@ function twoSum(numbers, target) {
     }
     return result.split(d).length - 1
   }
+
+  // Fake binary
+
+  function fakeBin(x){
+    let bin = '';
+    for(let char of x) {
+      if(parseInt(char) < 5) {
+        bin += '0'
+      } else {
+        bin += '1'
+      }
+    }
+    return bin;
+  }
