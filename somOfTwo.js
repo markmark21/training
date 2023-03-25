@@ -8,3 +8,9 @@ function twoSum(numbers, target) {
       }
     }
   };
+
+  // Reverse List 
+
+  function reverseList(list) {
+    return list.reverse()
+  }
